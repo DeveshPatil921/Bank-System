@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+    margin: 20px;
+    border: 3px solid rgb(1, 116, 26);
+    border-radius: 10px;
+}
+
+.button {
+    background-color: #76fcac;
+    color: #100940;
+    padding: 4px 15px;
+    width: 30%;
+    border-radius: 12px;
+    margin-right: 30px;
+}
+
+.Loginarea {
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* Navigation Bar */
+.navBar {
+    display: flex;
+}
+
+.navlist {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.navlist li {
+    margin: 2%;
+    justify-content: center;
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+    color: rgb(56, 30, 30);
+
+}
+
+.Activate {
+    padding: 7px 12px;
+    border-radius: 12px;
+    background-color: rgb(164, 235, 235);
+    color: #060321;
+}
+
+/* Introduction section  */
+.Intro {
+    text-align: center;
+    margin: 3%;
+}
+
+.Intro p {
+    text-align: justify;
+}
+
+.IntroImg img {
+
+    width: 95%;
+    height: 90%;
+    border: 2px solid black;
+    border-radius: 3%;
+}
+
+/* Team Member */
+.TeamImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TeamImage p {
+    text-align: center;
+}
+
+.TeamImage img {
+    width: 70%;
+    height: 60%;
+    border: 2px solid brown;
+}
+
+/* Feedback form */
+.Contaner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 2%;
+
+}
+
+.Contaner h1 {
+
+    margin: 2%;
+    font-size: 30px;
+}
+
+form {
+    width: 70%;
+    background-color: rgb(212, 255, 132);
+    justify-content: center;
+    border-radius: 40px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17pt;
+    margin: 9px 12px;
+}
+
+form div input {
+    padding: 3px 7px;
+    border: 1px solid rgb(227, 65, 249);
+    border-radius: 8px;
+    width: 59%;
+}
+
+form div textarea {
+    padding: 3px 7px;
+    border: 1px solid rgb(227, 65, 249);
+    border-radius: 8px;
+    width: 59%;
+    height: 100px;
+    resize: none;
+
+}
+
+/* footer */
+footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+/* footer */
+
+
+
+
+/* Theme ( color )  */
+/* border: 1px solid rgb(249, 65, 172); */
+/* border: 1px solid rgb(113, 254, 13); */
+/* border: 1px solid rgb(227, 65, 249); */
+
+
+/* Aligement  */
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+}
+
+.horizontal div {
+    width: 50%;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border: 2px solid gold;
+}
+
+.vertical div {
+    margin: 1%;
+}

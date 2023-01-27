@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/login.css">
+    <title>Bank User Login</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+
+    <nav class="navBar">
+        <ul class="navlist">
+            <div class="logo">
+                <img src="./Bank Images/Bank logo.jpg" alt="GPA Bank" width="70px" height="50px">
+            </div>
+            <h1>General Public Association Bank</h1>
+            
+        </ul>
+        <div class="Loginarea">
+            <ul class="Activate" style="margin:20px 30px ;">
+                <a  href="index.html">Back</a>
+            </ul>
+            
+        </div>
+    </nav>
+    <!-- Header Section -->
+    <hr>
+    <!-- User-Login Form -->
+
+    <section id="User-Login" class="LContaner">
+        <h5>User Login</h5>
+
+        <form action="loginServlet" method="post" class="Lform">
+            <div>
+                <label for="Username">Account Number</label>
+                <input type="text" id="AccountNum" name="AccountNum" required>
+            </div>
+            <div>
+                <label for="Password">Password</label>
+                <input type="Password" id="Password" name="Password" required >
+            </div>
+            
+            <div>
+                <input type="submit" id="Submit" value="Login" >
+                <!-- <button>Login</button> -->
+            </div>
+        </form>
+
+    </section>
+    <!-- User-Login Form -->
+
+    <!-- footer Section -->
+    <footer>
+        <div class=" navlist ">
+
+            <div class="logo">
+                <img src="./Bank Images/Bank logo.jpg" alt="">
+            </div>
+            <h3>GPA Bank .</h3>
+            <p> | © 2022 General Public Association Bank —
+                <a>@GPA Bank</a>
+            </p>
+        </div>
+    </footer>
+    <!-- Footer Section -->
+</body>
+
+</html>
